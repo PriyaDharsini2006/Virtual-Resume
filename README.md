@@ -1,9 +1,4 @@
----
-title: virtual_resume-1
-app_file: app.py
-sdk: gradio
-sdk_version: 5.33.0
----
+
 # virtual-resume-1
 
 ## Description
@@ -38,25 +33,24 @@ Create a `.env` file in your project root with these keys:
 GROQ_API_KEY=
 OPENROUTER_API_KEY=
 GEMINI_API_KEY=
-PUSHOVER_USER=u
+PUSHOVER_USER=
 PUSHOVER_TOKEN=
 
 
-##  uv
+uv
 Step 1: Install uv (if not installed)
-# pip install uv
-# uv venv
-# uv add <package-name>
-# uv sync
+ # pip install uv
+ # uv venv
+ # uv add <package-name>
+ # uv sync
+ # uv add -r requirements.txt
+ # uv run python app.py 
 
 ✅ When you add a package with uv add, it will automatically create pyproject.toml and uv.lock for you!
 
-or install all packages at one go with the command 
-# uv add -r requirements.txt  
+1) or install all packages at one go with the command 
+ ## uv add -r requirements.txt
 
-
-
-
-
-
-
+2) To run the agent loaclly
+## uv run python app.py
+ 
