@@ -5,7 +5,8 @@
 This project is a virtual resume chatbot built using Gradio and OpenRouter.  
 It reads a PDF profile and a summary text to answer questions about the user's career, background, and skills.  
 It also uses tools to record user details and unknown questions via Pushover notifications.
-
+✅ This project has been deployed to Hugging Face Spaces!
+Check it out here: https://huggingface.co/spaces/priya15306/gradio
 ---
 
 ## Features
